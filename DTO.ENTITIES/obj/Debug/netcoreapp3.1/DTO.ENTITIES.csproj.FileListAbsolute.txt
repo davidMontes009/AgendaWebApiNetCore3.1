@@ -1,0 +1,12 @@
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\DTO.ENTITIES\bin\Debug\netcoreapp3.1\DTO.ENTITIES.deps.json
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\DTO.ENTITIES\bin\Debug\netcoreapp3.1\DTO.ENTITIES.dll
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\DTO.ENTITIES\bin\Debug\netcoreapp3.1\DTO.ENTITIES.pdb
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\DTO.ENTITIES\bin\Debug\netcoreapp3.1\API.SHARED.dll
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\DTO.ENTITIES\bin\Debug\netcoreapp3.1\API.SHARED.pdb
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\DTO.ENTITIES\obj\Debug\netcoreapp3.1\DTO.ENTITIES.csprojAssemblyReference.cache
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\DTO.ENTITIES\obj\Debug\netcoreapp3.1\DTO.ENTITIES.AssemblyInfoInputs.cache
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\DTO.ENTITIES\obj\Debug\netcoreapp3.1\DTO.ENTITIES.AssemblyInfo.cs
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\DTO.ENTITIES\obj\Debug\netcoreapp3.1\DTO.ENTITIES.csproj.CoreCompileInputs.cache
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\DTO.ENTITIES\obj\Debug\netcoreapp3.1\DTO.ENTITIES.csproj.CopyComplete
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\DTO.ENTITIES\obj\Debug\netcoreapp3.1\DTO.ENTITIES.dll
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\DTO.ENTITIES\obj\Debug\netcoreapp3.1\DTO.ENTITIES.pdb

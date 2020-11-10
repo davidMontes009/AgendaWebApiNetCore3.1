@@ -1,0 +1,16 @@
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\API.BUSISNESS\bin\Debug\netcoreapp3.1\API.BUSISNESS.deps.json
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\API.BUSISNESS\bin\Debug\netcoreapp3.1\API.BUSISNESS.dll
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\API.BUSISNESS\bin\Debug\netcoreapp3.1\API.BUSISNESS.pdb
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\API.BUSISNESS\bin\Debug\netcoreapp3.1\API.DATA.dll
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\API.BUSISNESS\bin\Debug\netcoreapp3.1\API.SHARED.dll
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\API.BUSISNESS\bin\Debug\netcoreapp3.1\DTO.ENTITIES.dll
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\API.BUSISNESS\bin\Debug\netcoreapp3.1\API.DATA.pdb
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\API.BUSISNESS\bin\Debug\netcoreapp3.1\API.SHARED.pdb
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\API.BUSISNESS\bin\Debug\netcoreapp3.1\DTO.ENTITIES.pdb
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\API.BUSISNESS\obj\Debug\netcoreapp3.1\API.BUSISNESS.csprojAssemblyReference.cache
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\API.BUSISNESS\obj\Debug\netcoreapp3.1\API.BUSISNESS.AssemblyInfoInputs.cache
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\API.BUSISNESS\obj\Debug\netcoreapp3.1\API.BUSISNESS.AssemblyInfo.cs
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\API.BUSISNESS\obj\Debug\netcoreapp3.1\API.BUSISNESS.csproj.CoreCompileInputs.cache
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\API.BUSISNESS\obj\Debug\netcoreapp3.1\API.BUSISNESS.csproj.CopyComplete
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\API.BUSISNESS\obj\Debug\netcoreapp3.1\API.BUSISNESS.dll
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\API.BUSISNESS\obj\Debug\netcoreapp3.1\API.BUSISNESS.pdb

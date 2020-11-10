@@ -1,0 +1,246 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebAPI_Agenda</name>
+    </assembly>
+    <members>
+        <member name="T:WebAPI_Agenda.Controllers.AgendaController">
+            <summary>
+            Controller para administrar la agenda
+            </summary>
+        </member>
+        <member name="M:WebAPI_Agenda.Controllers.AgendaController.#ctor(API.BUSISNESS.ContactoBusisness,AutoMapper.IMapper)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="contactoBusisness"></param>
+        </member>
+        <member name="M:WebAPI_Agenda.Controllers.AgendaController.ConsultaCAtegoriasTel">
+            <summary>
+            Api para consultar las categorias de telefonos 
+            </summary> 
+            <returns>Retorna lista de categorias</returns>
+            <remarks>
+            Sample Request 
+            
+                GET
+                El servicio no requiere parametros 
+                
+            Sample Response 
+            
+                {
+                    "listCategorias": [
+                        {
+                            "categoriaTelId": 1,
+                            "descripcion": "Celular"
+                        },
+                        {
+                            "categoriaTelId": 2,
+                            "descripcion": "Casa"
+                        }
+                    ]
+                }
+            </remarks>
+        </member>
+        <member name="M:WebAPI_Agenda.Controllers.AgendaController.ConsultaContactos">
+            <summary>
+            Api para consultar las categorias de telefonos 
+            </summary> 
+            <returns>Retorna lista de categorias</returns>
+            <remarks>
+            Sample Request 
+            
+                GET
+                El servicio no requiere parametros 
+                
+            Sample Response 
+            
+                {
+                "listContacto": [
+                        {
+                          "contactoId": 1,
+                          "nombre": "David Israel",
+                          "apellidos": "David Israel",
+                          "telefono": "David Israel",
+                          "email": "David Israel",
+                          "direccion": "David Israel",
+                          "categoriaTel": "David Israel",
+                          "validations": [],
+                          "isValid": true
+                        }
+                    ]
+                }
+            </remarks>
+        </member>
+        <member name="M:WebAPI_Agenda.Controllers.AgendaController.RegistraContacto(WebAPI_Agenda.ViewModels.RegistraContactoModel)">
+            <summary>
+            APi para registrar un contacto 
+            </summary>
+            <param name="contactoModel">Modelo con la información del contacot a registrar</param>
+            <returns>Mensaje con el estatus de la acción </returns>
+            <remarks>
+            Sample Request
+            
+                POST
+                {
+                    "nombre": "David",
+                    "apellidos": "Montes Rodriguez",
+                    "telefono": "5534443491",
+                    "email": "davidmr_1312@hotmail.com",
+                    "direccion": "Rocio #5 San Juan Bosco Atizapan de Zaragoza",
+                    "categoriaTel": "Celular"
+                }
+                
+            Sample Response
+            
+                {
+                    "status": true,
+                    "message": "El contacto se registro con éxito"
+                }
+            </remarks>
+        </member>
+        <member name="M:WebAPI_Agenda.Controllers.AgendaController.ActualizaContacto(WebAPI_Agenda.ViewModels.ActualizaContactoModel)">
+            <summary>
+            APi para actualizar un contacto 
+            </summary>
+            <param name="contactoModel">Modelo con la información del contacot a actualizar</param>
+            <returns>Mensaje con el estatus de la acción </returns>
+            <remarks>
+            Sample Request
+            
+                PUT
+                {
+                    "contactoId": 1,
+                    "nombre": "David Israel",
+                    "apellidos": "Montes Rodriguez",
+                    "telefono": "5534443491",
+                    "email": "davidmr_1312@hotmail.com",
+                    "direccion": "Rocio #5 San Juan Bosco Atizapan de Zaragoza",
+                    "categoriaTel": "Celular"
+                }
+                
+            Sample Response
+                
+                {
+                    "status": false,
+                    "message": "El contacto se actualizo con éxito"
+                }
+            </remarks>
+        </member>
+        <member name="M:WebAPI_Agenda.Controllers.AgendaController.EliminaContacto(System.Int32)">
+            <summary>
+            APi para actualizar un contacto 
+            </summary>
+            <param name="IdContacto"> Identificador unico del contacto</param>
+            <returns>Mensaje con el estatus de la acción </returns>
+            <remarks>
+            Sample Request
+            
+                DELETE
+                IdContacto = 1
+                
+            Sample Response
+            
+                {
+                    "status": true,
+                    "message": "El contacto se elimino con éxito"
+                }
+            </remarks>
+        </member>
+        <member name="T:WebAPI_Agenda.Services.MappingProfile">
+            <summary>
+            Clase para manejar el AAutomapper
+            </summary>
+        </member>
+        <member name="M:WebAPI_Agenda.Services.MappingProfile.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:WebAPI_Agenda.Startup.DependencyInjectionData(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Inyección de dependencias para la capa de datos 
+            </summary>
+        </member>
+        <member name="M:WebAPI_Agenda.Startup.DependencyInjectionBusissnes(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Inyección de dependencias para la capa de negocio
+            </summary>
+        </member>
+        <member name="T:WebAPI_Agenda.ViewModels.ActualizaContactoModel">
+            <summary>
+            Modelo para recopilar la informacion del contacto a actualizar 
+            </summary>
+        </member>
+        <member name="P:WebAPI_Agenda.ViewModels.ActualizaContactoModel.ContactoId">
+            <summary>
+            Identificador unico del usuario 
+            </summary>
+        </member>
+        <member name="P:WebAPI_Agenda.ViewModels.ActualizaContactoModel.Nombre">
+            <summary>
+             NOMBRE DEL CONTACTO	
+            </summary>
+        </member>
+        <member name="P:WebAPI_Agenda.ViewModels.ActualizaContactoModel.Apellidos">
+            <summary>
+            APELLIDOS DEL CONTACTO
+            </summary>
+        </member>
+        <member name="P:WebAPI_Agenda.ViewModels.ActualizaContactoModel.Telefono">
+            <summary>
+            NUMERO TELEFONICO 
+            </summary>
+        </member>
+        <member name="P:WebAPI_Agenda.ViewModels.ActualizaContactoModel.Email">
+            <summary>
+            CORREO ELECTRONICO 
+            </summary>
+        </member>
+        <member name="P:WebAPI_Agenda.ViewModels.ActualizaContactoModel.Direccion">
+            <summary>
+            DIRECCION DEL CONTACTO
+            </summary>
+        </member>
+        <member name="P:WebAPI_Agenda.ViewModels.ActualizaContactoModel.CategoriaTel">
+            <summary>
+            TIPO DE TELEFONO 	
+            </summary>
+        </member>
+        <member name="T:WebAPI_Agenda.ViewModels.RegistraContactoModel">
+            <summary>
+            Modelo para recuperar la info del contacto 
+            </summary>
+        </member>
+        <member name="P:WebAPI_Agenda.ViewModels.RegistraContactoModel.Nombre">
+            <summary>
+             NOMBRE DEL CONTACTO	
+            </summary>
+        </member>
+        <member name="P:WebAPI_Agenda.ViewModels.RegistraContactoModel.Apellidos">
+            <summary>
+            APELLIDOS DEL CONTACTO
+            </summary>
+        </member>
+        <member name="P:WebAPI_Agenda.ViewModels.RegistraContactoModel.Telefono">
+            <summary>
+            NUMERO TELEFONICO 
+            </summary>
+        </member>
+        <member name="P:WebAPI_Agenda.ViewModels.RegistraContactoModel.Email">
+            <summary>
+            CORREO ELECTRONICO 
+            </summary>
+        </member>
+        <member name="P:WebAPI_Agenda.ViewModels.RegistraContactoModel.Direccion">
+            <summary>
+            DIRECCION DEL CONTACTO
+            </summary>
+        </member>
+        <member name="P:WebAPI_Agenda.ViewModels.RegistraContactoModel.CategoriaTel">
+            <summary>
+            TIPO DE TELEFONO 	
+            </summary>
+        </member>
+    </members>
+</doc>

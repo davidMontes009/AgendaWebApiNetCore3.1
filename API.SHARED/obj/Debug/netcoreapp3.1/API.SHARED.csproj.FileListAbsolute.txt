@@ -1,0 +1,9 @@
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\API.SHARED\bin\Debug\netcoreapp3.1\API.SHARED.deps.json
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\API.SHARED\bin\Debug\netcoreapp3.1\API.SHARED.dll
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\API.SHARED\obj\Debug\netcoreapp3.1\API.SHARED.csprojAssemblyReference.cache
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\API.SHARED\obj\Debug\netcoreapp3.1\API.SHARED.AssemblyInfoInputs.cache
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\API.SHARED\obj\Debug\netcoreapp3.1\API.SHARED.AssemblyInfo.cs
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\API.SHARED\bin\Debug\netcoreapp3.1\API.SHARED.pdb
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\API.SHARED\obj\Debug\netcoreapp3.1\API.SHARED.csproj.CoreCompileInputs.cache
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\API.SHARED\obj\Debug\netcoreapp3.1\API.SHARED.dll
+C:\Users\davidmontes\source\repos\WebAPI_Agenda\API.SHARED\obj\Debug\netcoreapp3.1\API.SHARED.pdb
